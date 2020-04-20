@@ -1,4 +1,5 @@
-set Additional shared libraries            = #Please set to the path the the library paper-Muluneh
+# Please set the correct path to the library libpaper-Muluneh.so that you compiled
+set Additional shared libraries            = ./aspect_plugins/libpaper-Muluneh.so
 
 set Dimension                              = 2
 
@@ -105,11 +106,11 @@ subsection Initial composition model
     # No scaling factor, only absolute values.
     # Syntax: Point1;\
     #         Point2
-    # Syntax: where Point is point_x,point1_y
+    # Syntax: where Point is point_x,point1_y in 3D
     # order:                                             upper, lower, mantle_L
     set Lithospheric polygon layer thicknesses         =  25e3, 13e3, 82e3
     # Syntax:                                            point_x, point1_y
-    set Lithospheric polygons                          =  -10e3,0e3 > -9e3,0e3  # polygons not used
+    set Lithospheric polygons                          =  -10e3 > -9e3  # polygons not used
     # lateral transition to reference thickness
     set Half width of polygon smoothing                = 1e3 
     
