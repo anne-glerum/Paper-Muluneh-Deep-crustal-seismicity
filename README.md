@@ -6,7 +6,7 @@ This repository belongs to the paper
     Insight from modeling of deformation process at the Main Ethiopian Rift
     by
     Ameha A. Muluneh, Sascha Brune, Finnigan Illsley-Kemp, Giacomo Corti, 
-    Derek Keir6, Anne Glerum, Tesfaye Kidane and Jim Mori
+    Derek Keir, Anne Glerum, Tesfaye Kidane and Jim Mori
 
 and contains an input file and code to reproduce the computations in the paper.
 
